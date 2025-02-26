@@ -1655,6 +1655,17 @@ footer p {
   font-weight: 400;
 }
 
+@media (max-width: 767px) {
+  footer p {
+    line-height: 21px;
+  }
+
+  footer .container {
+    position: absolute;
+    top: 65px;
+  }
+}
+
 footer p a {
   color: #fff;
   transition: all .3s;
